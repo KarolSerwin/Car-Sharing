@@ -1,0 +1,50 @@
+:root {
+    --titles-font: 'Nunito Sans', sans-serif;
+    --text-font: 'Open Sans', sans-serif;
+    --color-bright: #ffffff;
+    --color-dark: #ff0000;
+    --background-color-bright: #ffffff;
+    --background-color-dark: #28272C;
+    --button-shadow:  0 3px 6px #FF00004D;
+}
+
+
+/*PAGE CONTAINER*/
+.page__container {
+    width: 1088px;
+}
+
+ /*SECTION TITLE*/
+.section__title {
+    display: flex;
+    justify-content: space-between;
+}
+.section__title__line {
+    width: 50px;
+    height: 3px;
+    background-color: var(--color-dark);
+    box-shadow: 0 1px 6px #FF00004D;
+}
+.section__title__text {
+    color: #000000;
+    font-family: var(--titles-font);
+    font-weight: bold;
+}
+/*HEADER BUTTON*/
+.header__button {
+    padding: 22px 55px;
+    box-shadow: 0 3px 6px #FF00004D;
+
+}
+/*SECTION BUTTON*/
+.section__btn {
+    padding: 11px 29px 10px 29px;
+    box-shadow: 0 3px 6px #FF00004D;
+    border-radius: 40px;
+    background-color: var(--color-dark);
+    color: var(--color-bright);
+    text-transform: uppercase;
+    font-family: var(--titles-font);
+    font-size: 14px;
+}
+
