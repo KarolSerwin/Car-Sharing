@@ -5,8 +5,8 @@
 
 .section__wrapper {
     width: fit-content;
-    height: fit-content;
-    margin: 91px 0;
+    height: 100%;
+    margin: 120px 0;
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -18,7 +18,7 @@
     align-items: center;
     gap: 15px;
     height: auto;
-    flex-wrap: wrap;
+
 
 }
 .primary__section__box {
